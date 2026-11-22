@@ -1,0 +1,18 @@
+{
+  "id":"@com.horsecoder.common.whuTalent.dataTesting.core/FLOW_RUN",
+  "name":"FLOW_RUN",
+  "type":"flow",
+  "title":"运行",
+  "nodes":[
+    {
+      "id":"FLOW_NODE_RUN",
+      "type":"event",
+      "title":"运行",
+      "reference":"FLOW_CODE_RUN"
+    }
+  ],
+  "routes":[
+    { "source":"start", "target":"FLOW_NODE_RUN", "condition":"true" },
+    { "source":"FLOW_NODE_RUN", "target":"end", "condition":"true" }
+  ]
+}
