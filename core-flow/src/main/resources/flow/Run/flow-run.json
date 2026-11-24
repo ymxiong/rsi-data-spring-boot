@@ -1,10 +1,10 @@
 {
-  "id":"@com.horsecoder.common.whuTalent.dataTesting.core/FLOW_RUN",
+  "id":"@com.horsecoder.common.whuTalent.skillTesting.core/FLOW_RUN",
   "name":"FLOW_RUN",
   "type":"flow",
   "title":"运行",
   "params":[
-    { "title":"结构", "name":"structure", "type":"String", "notnull":true }
+    { "title":"结构", "name":"structure", "type":"String", "notnull":false }
   ],
   "results":[
     { "title":"结果", "name":"result", "type":"String", "notnull":true }
@@ -16,7 +16,7 @@
       "title":"运行",
       "reference":"FLOW_CODE_RUN",
       "params":[
-        { "title":"结构", "name":"structure", "type":"String", "notnull":true }
+        { "title":"结构", "name":"structure", "type":"String", "notnull":false }
       ],
       "results":[
         { "title":"结果", "name":"result", "type":"String", "notnull":true }
